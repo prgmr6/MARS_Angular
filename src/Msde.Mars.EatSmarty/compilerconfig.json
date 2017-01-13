@@ -1,0 +1,34 @@
+﻿[
+  {
+    "outputFile": "wwwroot/sass/_bootstrap.css",
+    "inputFile": "wwwroot/sass/_bootstrap.scss"
+  },
+  {
+    "outputFile": "wwwroot/sass/_bootstrap-compass.css",
+    "inputFile": "wwwroot/sass/_bootstrap-compass.scss"
+  },
+  {
+    "outputFile": "wwwroot/sass/_bootstrap-mincer.css",
+    "inputFile": "wwwroot/sass/_bootstrap-mincer.scss"
+  },
+  {
+    "outputFile": "wwwroot/sass/styles.css",
+    "inputFile": "wwwroot/sass/styles.scss"
+  },
+  {
+    "outputFile": "wwwroot/sass/_print.css",
+    "inputFile": "wwwroot/sass/_print.scss"
+  },
+  {
+    "outputFile": "wwwroot/sass/_bootstrap-sprockets.css",
+    "inputFile": "wwwroot/sass/_bootstrap-sprockets.scss"
+  },
+  {
+    "outputFile": "wwwroot/css/sass/styles.css",
+    "inputFile": "wwwroot/css/sass/styles.scss"
+  },
+  {
+    "outputFile": "wwwroot/css/sass/styles-debug.css",
+    "inputFile": "wwwroot/css/sass/styles-debug.scss"
+  }
+]

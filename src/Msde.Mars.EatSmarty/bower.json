@@ -1,0 +1,9 @@
+{
+  "name": "eatsmart",
+  "dependencies": {
+    "jquery": "3.1.1"
+  },
+  "resolutions": {
+    "jquery": "3.1.1"
+  }
+}

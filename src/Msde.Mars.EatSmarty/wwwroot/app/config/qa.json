@@ -1,0 +1,19 @@
+﻿{
+  "serviceaddress": "http://localhost:53737",
+  "title": "Eat Smart",
+  "type": "object",
+  "env": "qa",
+  "public": null,
+  "breadcrumb_links": "api/MARS_Breadcrumb_Links/",
+  "breadcrumbs": "api/MARS_Breadcrumbs/",
+  "images": "api/MARS_Images/",
+  "page": "api/MARS_Page/",
+  "page_toptext": "api/MARS_Page_Toptext/",
+  "pagetext": "api/MARS_Pagetext/",
+  "quicklinks": "api/MARS_QuickLinks/",
+  "quicklinks_links": "api/MARS_Quicklinks_Links/",
+  "benefits": "api/Benefits/",
+  "announcements": "api/Announcements/",
+  "homeslider": "api/HomeSlider/",
+  "reports": "api/Reports/"
+}
