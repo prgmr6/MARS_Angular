@@ -1,0 +1,14 @@
+{
+  "title": "Msde.Mars.Interfaces",
+  "version": "1.0.0-*",
+
+  "dependencies": {
+    "Msde.Mars.Business.Entities": "1.0.0-*"
+  },
+
+  "frameworks": {
+    "netstandard1.6": {
+      "imports": "dnxcore50"
+    }
+  }
+}
