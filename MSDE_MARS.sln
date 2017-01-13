@@ -1,0 +1,191 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{AA71929C-AA78-4861-A50A-4FDDA03FAA9A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{888C8702-59EB-4214-AD68-407A764B3872}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Msde.Mars.Business", "src\Msde.Mars.Business\Msde.Mars.Business.xproj", "{ED510F45-8AD8-4B60-91E4-EBCA8D3CFE41}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Msde.Mars.Business.Entities", "src\Msde.Mars.Business.Entities\Msde.Mars.Business.Entities.xproj", "{D8EDB6A9-E516-41A7-AD1D-23E45D5269C1}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Msde.Mars.Interfaces", "src\Msde.Mars.Interfaces\Msde.Mars.Interfaces.xproj", "{4E63DB24-3558-4BF7-819B-2ADF15B86B2C}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Msde.Mars.Service", "src\Msde.Mars.Service\Msde.Mars.Service.xproj", "{65F7674E-3A94-447F-9EA0-01C684726157}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Msde.Mars.EatSmart", "src\Msde.Mars.EatSmarty\Msde.Mars.EatSmart.xproj", "{7563471A-794F-4A40-971D-0B9D1A24F2D4}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Msde.Mars.Agency", "src\Msde.Mars.Agency\Msde.Mars.Agency.xproj", "{C9C746C5-59BA-4BD9-B40E-6F2FB0D656EB}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Msde.Mars.WebApi", "src\Msde.Mars.WebApi\Msde.Mars.WebApi.xproj", "{ADB679E1-87AE-4A09-871C-226CC4361D58}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Msde.Mars.EventHandlers", "src\Msde.Mars.EventHandlers\Msde.Mars.EventHandlers.xproj", "{3A55212D-6729-4057-BEB2-D650A84D2079}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Msde.Mars.EventProcessors", "src\Msde.Mars.EventProcessors\Msde.Mars.EventProcessors.xproj", "{BF3355AA-A7FF-4568-B7F8-79F5DFA7C57D}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Msde.Mars.Events", "src\Msde.Mars.Events\Msde.Mars.Events.xproj", "{AEDF40E9-1B08-4112-8910-1FD947C68D87}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Msde.Mars.Repositories", "src\Msde.Mars.Repositories\Msde.Mars.Repositories.xproj", "{462F07F2-C324-480C-AE60-1FFB2BE9F0B1}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Msde.Mars.RequestBuilders", "src\Msde.Mars.RequestBuilders\Msde.Mars.RequestBuilders.xproj", "{FE5B2206-E3EE-45EC-BA27-9CACE1E9650D}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Msde.Mars.RequestHandlers", "src\Msde.Mars.RequestHandlers\Msde.Mars.RequestHandlers.xproj", "{8A99040D-D381-4B89-A3D9-5A146F06BA56}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Aliencube.EntityFrameworkCore.Extensions", "src\Aliencube.EntityFrameworkCore.Extensions\Aliencube.EntityFrameworkCore.Extensions.xproj", "{F4E02A78-BB9B-48A3-8E61-010941BCCA52}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Aliencube.EntityContextLibrary", "src\Aliencube.EntityContextLibrary\Aliencube.EntityContextLibrary.xproj", "{173C4E85-48A8-405B-BBE0-B11CDAA57D10}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Msde.Mars.UserManagement", "src\Msde.Mars.UserManagement\Msde.Mars.UserManagement.xproj", "{AE22B54D-938B-40BB-881C-AE733F0FBB0A}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Msde.Mars.Communication", "src\Msde.Mars.Communication\Msde.Mars.Communication.xproj", "{9458A009-8DF3-4A26-B94E-084554879BEB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ED510F45-8AD8-4B60-91E4-EBCA8D3CFE41}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED510F45-8AD8-4B60-91E4-EBCA8D3CFE41}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED510F45-8AD8-4B60-91E4-EBCA8D3CFE41}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED510F45-8AD8-4B60-91E4-EBCA8D3CFE41}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D8EDB6A9-E516-41A7-AD1D-23E45D5269C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8EDB6A9-E516-41A7-AD1D-23E45D5269C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8EDB6A9-E516-41A7-AD1D-23E45D5269C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8EDB6A9-E516-41A7-AD1D-23E45D5269C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E63DB24-3558-4BF7-819B-2ADF15B86B2C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E63DB24-3558-4BF7-819B-2ADF15B86B2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E63DB24-3558-4BF7-819B-2ADF15B86B2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E63DB24-3558-4BF7-819B-2ADF15B86B2C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{65F7674E-3A94-447F-9EA0-01C684726157}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65F7674E-3A94-447F-9EA0-01C684726157}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65F7674E-3A94-447F-9EA0-01C684726157}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65F7674E-3A94-447F-9EA0-01C684726157}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7563471A-794F-4A40-971D-0B9D1A24F2D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7563471A-794F-4A40-971D-0B9D1A24F2D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7563471A-794F-4A40-971D-0B9D1A24F2D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7563471A-794F-4A40-971D-0B9D1A24F2D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C9C746C5-59BA-4BD9-B40E-6F2FB0D656EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9C746C5-59BA-4BD9-B40E-6F2FB0D656EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9C746C5-59BA-4BD9-B40E-6F2FB0D656EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9C746C5-59BA-4BD9-B40E-6F2FB0D656EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ADB679E1-87AE-4A09-871C-226CC4361D58}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADB679E1-87AE-4A09-871C-226CC4361D58}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADB679E1-87AE-4A09-871C-226CC4361D58}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADB679E1-87AE-4A09-871C-226CC4361D58}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A55212D-6729-4057-BEB2-D650A84D2079}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A55212D-6729-4057-BEB2-D650A84D2079}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A55212D-6729-4057-BEB2-D650A84D2079}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A55212D-6729-4057-BEB2-D650A84D2079}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF3355AA-A7FF-4568-B7F8-79F5DFA7C57D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF3355AA-A7FF-4568-B7F8-79F5DFA7C57D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF3355AA-A7FF-4568-B7F8-79F5DFA7C57D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF3355AA-A7FF-4568-B7F8-79F5DFA7C57D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AEDF40E9-1B08-4112-8910-1FD947C68D87}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AEDF40E9-1B08-4112-8910-1FD947C68D87}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AEDF40E9-1B08-4112-8910-1FD947C68D87}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AEDF40E9-1B08-4112-8910-1FD947C68D87}.Release|Any CPU.Build.0 = Release|Any CPU
+		{462F07F2-C324-480C-AE60-1FFB2BE9F0B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{462F07F2-C324-480C-AE60-1FFB2BE9F0B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{462F07F2-C324-480C-AE60-1FFB2BE9F0B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{462F07F2-C324-480C-AE60-1FFB2BE9F0B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE5B2206-E3EE-45EC-BA27-9CACE1E9650D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE5B2206-E3EE-45EC-BA27-9CACE1E9650D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE5B2206-E3EE-45EC-BA27-9CACE1E9650D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE5B2206-E3EE-45EC-BA27-9CACE1E9650D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A99040D-D381-4B89-A3D9-5A146F06BA56}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A99040D-D381-4B89-A3D9-5A146F06BA56}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A99040D-D381-4B89-A3D9-5A146F06BA56}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A99040D-D381-4B89-A3D9-5A146F06BA56}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F4E02A78-BB9B-48A3-8E61-010941BCCA52}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4E02A78-BB9B-48A3-8E61-010941BCCA52}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4E02A78-BB9B-48A3-8E61-010941BCCA52}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4E02A78-BB9B-48A3-8E61-010941BCCA52}.Release|Any CPU.Build.0 = Release|Any CPU
+		{173C4E85-48A8-405B-BBE0-B11CDAA57D10}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{173C4E85-48A8-405B-BBE0-B11CDAA57D10}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{173C4E85-48A8-405B-BBE0-B11CDAA57D10}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{173C4E85-48A8-405B-BBE0-B11CDAA57D10}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE22B54D-938B-40BB-881C-AE733F0FBB0A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE22B54D-938B-40BB-881C-AE733F0FBB0A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE22B54D-938B-40BB-881C-AE733F0FBB0A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE22B54D-938B-40BB-881C-AE733F0FBB0A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9458A009-8DF3-4A26-B94E-084554879BEB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9458A009-8DF3-4A26-B94E-084554879BEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9458A009-8DF3-4A26-B94E-084554879BEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9458A009-8DF3-4A26-B94E-084554879BEB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7563471A-794F-4A40-971D-0B9D1A24F2D4} = {AA71929C-AA78-4861-A50A-4FDDA03FAA9A}
+		{C9C746C5-59BA-4BD9-B40E-6F2FB0D656EB} = {AA71929C-AA78-4861-A50A-4FDDA03FAA9A}
+		{ADB679E1-87AE-4A09-871C-226CC4361D58} = {AA71929C-AA78-4861-A50A-4FDDA03FAA9A}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 18
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://tfs13:8080/tfs/cgprojects
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = src\\Msde.Mars.Business.Entities\\Msde.Mars.Business.Entities.xproj
+		SccProjectName1 = src/Msde.Mars.Business.Entities
+		SccLocalPath1 = src\\Msde.Mars.Business.Entities
+		SccProjectUniqueName2 = src\\Msde.Mars.Business\\Msde.Mars.Business.xproj
+		SccProjectName2 = src/Msde.Mars.Business
+		SccLocalPath2 = src\\Msde.Mars.Business
+		SccProjectUniqueName3 = src\\Msde.Mars.EatSmarty\\Msde.Mars.EatSmart.xproj
+		SccProjectTopLevelParentUniqueName3 = MSDE_MARS.sln
+		SccProjectName3 = src/Msde.Mars.EatSmarty
+		SccLocalPath3 = src\\Msde.Mars.EatSmarty
+		SccProjectUniqueName4 = src\\Msde.Mars.Interfaces\\Msde.Mars.Interfaces.xproj
+		SccProjectName4 = src/Msde.Mars.Interfaces
+		SccLocalPath4 = src\\Msde.Mars.Interfaces
+		SccProjectUniqueName5 = src\\Msde.Mars.Service\\Msde.Mars.Service.xproj
+		SccProjectName5 = src/Msde.Mars.Service
+		SccLocalPath5 = src\\Msde.Mars.Service
+		SccProjectUniqueName6 = src\\Msde.Mars.Agency\\Msde.Mars.Agency.xproj
+		SccProjectTopLevelParentUniqueName6 = MSDE_MARS.sln
+		SccProjectName6 = src/Msde.Mars.Agency
+		SccLocalPath6 = src\\Msde.Mars.Agency
+		SccProjectUniqueName7 = src\\Msde.Mars.WebApi\\Msde.Mars.WebApi.xproj
+		SccProjectTopLevelParentUniqueName7 = MSDE_MARS.sln
+		SccProjectName7 = src/Msde.Mars.WebApi
+		SccLocalPath7 = src\\Msde.Mars.WebApi
+		SccProjectUniqueName8 = src\\Msde.Mars.EventHandlers\\Msde.Mars.EventHandlers.xproj
+		SccProjectName8 = src/Msde.Mars.EventHandlers
+		SccLocalPath8 = src\\Msde.Mars.EventHandlers
+		SccProjectUniqueName9 = src\\Msde.Mars.EventProcessors\\Msde.Mars.EventProcessors.xproj
+		SccProjectName9 = src/Msde.Mars.EventProcessors
+		SccLocalPath9 = src\\Msde.Mars.EventProcessors
+		SccProjectUniqueName10 = src\\Msde.Mars.Events\\Msde.Mars.Events.xproj
+		SccProjectName10 = src/Msde.Mars.Events
+		SccLocalPath10 = src\\Msde.Mars.Events
+		SccProjectUniqueName11 = src\\Msde.Mars.Repositories\\Msde.Mars.Repositories.xproj
+		SccProjectName11 = src/Msde.Mars.Repositories
+		SccLocalPath11 = src\\Msde.Mars.Repositories
+		SccProjectUniqueName12 = src\\Msde.Mars.RequestBuilders\\Msde.Mars.RequestBuilders.xproj
+		SccProjectName12 = src/Msde.Mars.RequestBuilders
+		SccLocalPath12 = src\\Msde.Mars.RequestBuilders
+		SccProjectUniqueName13 = src\\Msde.Mars.RequestHandlers\\Msde.Mars.RequestHandlers.xproj
+		SccProjectName13 = src/Msde.Mars.RequestHandlers
+		SccLocalPath13 = src\\Msde.Mars.RequestHandlers
+		SccProjectUniqueName14 = src\\Aliencube.EntityFrameworkCore.Extensions\\Aliencube.EntityFrameworkCore.Extensions.xproj
+		SccProjectName14 = src/Aliencube.EntityFrameworkCore.Extensions
+		SccLocalPath14 = src\\Aliencube.EntityFrameworkCore.Extensions
+		SccProjectUniqueName15 = src\\Aliencube.EntityContextLibrary\\Aliencube.EntityContextLibrary.xproj
+		SccProjectName15 = src/Aliencube.EntityContextLibrary
+		SccLocalPath15 = src\\Aliencube.EntityContextLibrary
+		SccProjectUniqueName16 = src\\Msde.Mars.UserManagement\\Msde.Mars.UserManagement.xproj
+		SccProjectName16 = src/Msde.Mars.UserManagement
+		SccLocalPath16 = src\\Msde.Mars.UserManagement
+		SccProjectUniqueName17 = src\\Msde.Mars.Communication\\Msde.Mars.Communication.xproj
+		SccProjectTopLevelParentUniqueName17 = MSDE_MARS.sln
+		SccProjectName17 = src/Msde.Mars.Communication
+		SccLocalPath17 = src\\Msde.Mars.Communication
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,62 @@
+{
+  "title": "Federal Funds at a Glance",
+  "year": 2012,
+  "status": "Saved",
+  "date": "2017-01-12T18:20:20.1015553-05:00",
+  "data": [
+    {
+      "title": "Special Milk Program",
+      "reimbursement": "389699.72",
+      "percentage": "0.13",
+      "graph": true
+    },
+    {
+      "title": "National School Lunch Program",
+      "reimbursement": "136718031.81",
+      "percentage": "44.32",
+      "graph": true
+    },
+    {
+      "title": "School Breakfast Program",
+      "reimbursement": "69614945.04",
+      "percentage": "22.57",
+      "graph": true
+    },
+    {
+      "title": "Child and Adult Care Food Program",
+      "reimbursement": "89793897.54",
+      "percentage": "29.11",
+      "graph": true
+    },
+    {
+      "title": "Summer Food Program",
+      "reimbursement": "6348382.18",
+      "percentage": "2.06",
+      "graph": true
+    },
+    {
+      "title": "Fresh Fruit and Vegetable Program",
+      "reimbursement": "1292910.57",
+      "percentage": "0.42",
+      "graph": true
+    },
+    {
+      "title": "State Funding Paid",
+      "reimbursement": "4329865.79",
+      "percentage": "1.40",
+      "graph": false
+    },
+    {
+      "title": "Total Federal Funding Paid",
+      "reimbursement": "304157866.86",
+      "percentage": "100.00",
+      "graph": false
+    },
+    {
+      "title": "Total Federal and State Funding Paid",
+      "reimbursement": "308487732.65",
+      "percentage": "",
+      "graph": false
+    }
+  ]
+}
