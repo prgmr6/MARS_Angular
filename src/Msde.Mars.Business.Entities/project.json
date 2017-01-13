@@ -1,0 +1,19 @@
+{
+  "title": "Msde.Mars.Business.Entities",
+  "version": "1.0.0-*",
+
+  "dependencies": {
+    "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "1.0.0",
+    "Microsoft.AspNetCore.Mvc.ViewFeatures": "1.0.0",
+    "Microsoft.EntityFrameworkCore": "1.0.1",
+    "NETStandard.Library": "1.6.0",
+    "System.Collections.NonGeneric": "4.0.1",
+    "System.ComponentModel.Annotations": "4.1.0"
+  },
+
+  "frameworks": {
+    "netstandard1.6": {
+      "imports": "dnxcore50"
+    }
+  }
+}
