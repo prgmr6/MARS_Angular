@@ -1,0 +1,5 @@
+body.msde div.wrap, body.agency div.wrap, body.esadmin div.wrap {
+  max-width: none; }
+
+.main-wrapper .main-inner .content.no-sidebar {
+  width: 100%; }

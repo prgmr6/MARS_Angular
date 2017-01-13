@@ -1,0 +1,101 @@
+﻿<headerlist></headerlist>
+<div id="navigation-wrapper">
+    <div class="navigation-inner wrap">
+        <div id="mobile-icon">
+            <a id="responsive-menu-button" href="#sidr-main">Home</a>
+        </div>
+        <div id="navigation">
+            <ul>
+                <li>
+                    <a href="javascript:void(0)" [routerLink]="['About']">Home</a>
+                    <ul>
+                        <li><a class="first" [routerLink]="['GeneralInformation']" style="cursor:pointer;">General Information</a></li>
+                        <li><a style="cursor:pointer;" [routerLink]="['SupportingAcademics']">Supporting Academics</a></li>
+                        <li><a style="cursor:pointer;" [routerLink]="['WhatWeDo']">What We Do</a></li>
+                        <li><a class="last" href="http://www.marylandpublicschools.org/programs/Documents/Nutrition/MDNutritionStandardsAllFoodsSold072016.pdf" target="_blank">MD Nutrition Standards</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="javascript:void(0)" [routerLink]="['MealPrograms']">To Do</a>
+                    <ul>
+                        <li><a class="first" [routerLink]="['SchoolMeals']">Eligibility Calculator</a></li>
+                        <li><a href="child-adult-care-food-program.html">Office Manager</a></li>
+                        <li><a href="summer-food-service-program.html">Program Admin</a></li>
+                        <li><a href="special-milk.html">Program Compliance</a></li>
+                        <li><a href="usdafoods.html">Financial Management</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="data.html">Programs</a>
+                    <ul>
+                        <li><a class="first" [routerLink]="['SchoolMeals']">Program Admin</a></li>
+                        <li><a href="child-adult-care-food-program.html">Program Compliance</a></li>
+                        <li><a href="summer-food-service-program.html">Agency Applications</a></li>
+                        <li><a href="special-milk.html">Program Applications</a></li>
+                        <li><a href="usdafoods.html">Site Applications</a></li>
+                        <li><a href="usdafoods.html">Procurement</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="news.html">Financials</a>
+                    <ul>
+                        <li><a class="first" [routerLink]="['SchoolMeals']">Financial Management</a></li>
+                        <li><a href="child-adult-care-food-program.html">Budgets</a></li>
+                    </ul>
+                
+                </li>
+                <li>
+                    <a href="news.html">Reports</a>
+                    <ul>
+                        <li><a class="first" [routerLink]="['SchoolMeals']">Financial Management</a></li>
+                        <li><a href="child-adult-care-food-program.html">Program Admin</a></li>
+                        <li><a href="child-adult-care-food-program.html">Program Compliance</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="news.html">Communications</a>
+                    <ul>
+                        <li><a class="first" [routerLink]="['SchoolMeals']">Broadcast</a></li>
+                        <li><a href="child-adult-care-food-program.html">View Broadcast History</a></li>
+                        <li><a href="child-adult-care-food-program.html">Events</a></li>
+                        <li><a href="child-adult-care-food-program.html">Contacts Management</a></li>
+                        <li><a href="child-adult-care-food-program.html">Subscriptions</a></li>
+                    </ul>
+                </li>
+                
+            </ul>
+        </div>
+        <div class="search-block" style="width:200px;">
+            <div class="search-icon"><a class="icon search" href="/search">Search</a></div>
+            <div class="search-form">
+                <form>
+                    <div class="form-element">
+                        <input type="search" placeholder="Search" name="Search" />
+                    </div>
+                    <div class="form-element">
+                        <input class="submit-btn" type="submit" name="Submit" value="Search" />
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+<router-outlet></router-outlet>
+<footer id="footer">
+    <div class="footer-inner wrap">
+        <div class="block address">
+            <p>
+                <a href="http://www.marylandpublicschools.org" target="_blank"><img alt="Maryland State Department of Education" src="/images/msde-logo.png"></a>200 West Baltimore Street<br>Baltimore, MD 21201<br>
+                (410)-767-0100 • 1-888-246-0016
+            </p>
+        </div>
+        <div class="block links">
+            <p>This institution is an equal opportunity provider</p>
+            <ul>
+                <li><a href="/disclaimer.html">Disclaimer</a></li>
+                <li><a href="/contact.html">Contact Us</a></li>
+            </ul>
+            <p class="copyright">©2016, Maryland State Department of Education</p>
+        </div>
+    </div>
+</footer>
