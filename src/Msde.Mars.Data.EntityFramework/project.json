@@ -1,0 +1,16 @@
+{
+  "title": "Msde.Mars.Data.EntityFramework",
+  "version": "1.0.0-*",
+
+  "dependencies": {
+    "Msde.Mars.Data": "1.0.0-*",
+    "Msde.Mars.Interfaces": "1.0.0-*",
+    "NETStandard.Library": "1.6.0"
+  },
+
+  "frameworks": {
+    "netstandard1.6": {
+      "imports": "dnxcore50"
+    }
+  }
+}
