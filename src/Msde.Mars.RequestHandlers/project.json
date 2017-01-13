@@ -1,0 +1,17 @@
+{
+  "title": "Msde.Mars.RequestHandlers",
+  "version": "1.0.0-*",
+
+  "dependencies": {
+    "AutoMapper": "5.1.1",
+    "Msde.Mars.Business.Entities": "1.0.0-*",
+    "Msde.Mars.Events": "1.0.0-*",
+    "NETStandard.Library": "1.6.0"
+  },
+
+  "frameworks": {
+    "netstandard1.6": {
+      "imports": "dnxcore50"
+    }
+  }
+}
